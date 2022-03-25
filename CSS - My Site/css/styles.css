@@ -1,0 +1,32 @@
+
+
+body {
+    margin:0;
+    color: white;
+}
+
+h1 {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.middle-container, .bottom-container {
+    height: 200px;
+    width: 200px;
+}
+
+.top-container {
+    background-color: #3A3845;
+}
+
+.middle-container {
+    background-color: cornflowerblue;
+}
+
+.bottom-container {
+    background-color: crimson;
+}
+
+.pro {
+    text-decoration: underline;
+}
