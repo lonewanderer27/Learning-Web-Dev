@@ -1,1 +1,2 @@
-# This repository serves as a central sync of the code that I write between devices.
+# This repository serves as a central location of the codes that I write between devices.
+## Nothing harmless or copyrighted.
