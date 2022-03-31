@@ -2,11 +2,6 @@ body {
     font-family: 'Montserrat';
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -16,6 +11,11 @@ h1 {
 
 .container-fluid {
     padding: 3% 15% 7% 15%; 
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
 }
 
 
@@ -62,12 +62,11 @@ h1 {
 
 /* Features */
 
-#features {
-    text-align: center;
-    padding: 7% 15%;
-    background-color: white;
-    position: relative;
-    z-index: 2;
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
 }
 
 .feature {
@@ -83,29 +82,20 @@ h1 {
     color: #ff4c68;
 }
 
-h3 {
-    font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: black;
-}
-
 .feature-description {
     color: #8f8f8f;
 }
 
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
 
 /* Testimonials */
-
-#testimonials {
-    text-align: center;
-    color: white;
-    background-color:#ef8172;
-}
-
-.carousel-item {
-    padding: 7% 15%;
-}
 
 h2 {
     font-family: 'Montserrat';
@@ -114,14 +104,29 @@ h2 {
     line-height: 1.5;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 .testimonial-image {
     width: 10%;
     border-radius: 50%;
     margin: 20px;
 }
 
+#testimonials {
+    text-align: center;
+    color: white;
+    background-color:#ef8172;
+}
+
 
 /* Press */ 
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
 
 #press {
     background-color:#ef8172;
@@ -129,25 +134,24 @@ h2 {
     padding-bottom: 3%; 
 }
 
-.press-image {
-    width: 15%;
-    margin: 20px 20px 50px 20px;
-}
-
 
 /* Pricing */
+
+.pricing-column {
+    padding: 3% 2%;
+}
 
 #pricing {
     padding: 100px;
     text-align: center;
 }
 
-.pricing-column {
-    padding: 3% 2%;
-}
-
 
 /* CTA */
+
+.bottom-download-button {
+    margin: 0 1%;
+}
 
 #cta {
     background-color: #ff4c68;
@@ -162,20 +166,16 @@ h2 {
     margin-bottom: 5%;
 }
 
-.bottom-download-button {
-    margin: 0 1%;
-}
-
 
 /* Copyright */
+
+.socials {
+    margin: 0.7%;
+}
 
 #footer {
     text-align: center;
     padding: 8% 0;
-}
-
-.socials {
-    margin: 0.7%;
 }
 
 #copyright {
